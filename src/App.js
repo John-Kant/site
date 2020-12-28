@@ -1,6 +1,7 @@
-import React from "react"
+import React from "react";
 
 // components
+
 import Navbar from "./Components/Navbar/Navbar"
 import Home from "./Components/Home/Home"
 import About from "./Components/About/About"
