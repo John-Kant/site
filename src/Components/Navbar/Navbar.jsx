@@ -1,4 +1,6 @@
 import React from "react";
+// import logo from "../../images/old.png"
+
 const Navbar = () => {
   const [height, setHeight] = React.useState(0);
   const [toggler, setToggler] = React.useState(false);
@@ -16,7 +18,9 @@ const Navbar = () => {
   return (
     <nav className={height > 20 ? "navbar sticky " : "navbar goTop"}>
       <div className="inner-width">
-        <a href="#" className="logo" />
+        {/* <a href="#" className="logo" /> */}
+        {/* <img src={logo} alt="banner" className="logo" /> */}
+        <h1 className="logo">JBAKTECH</h1>
         <button
           className={toggler ? "active menu-toggler" : "menu-toggler"}
           onClick={handleToggler}

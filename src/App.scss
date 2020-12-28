@@ -82,7 +82,7 @@
   }
   
   .navbar-menu a:hover{
-    color: #48dbfb !important;
+    color: #11D0CC !important;
   }
   
   .sticky{
@@ -91,7 +91,7 @@
   }
   
   .sticky .logo{
-    background-image: url(./images/black-logo.png);
+    background-image: url(./images/white-logo.png);
   }
   
   .sticky .navbar-menu a{
@@ -105,7 +105,10 @@
   #home{
     height: 100vh;
     min-height: 500px;
-    background: url(./images/bg.jpg) no-repeat center;
+    // background: url(./images/bg.png) no-repeat center;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/bg.png');
     background-size: cover;
     background-attachment: fixed;
   }
@@ -153,7 +156,7 @@
   }
   
   .sm a:hover{
-    color: #48dbfb;
+    color: #11D0CC;
   }
   
   #home .buttons{
@@ -163,11 +166,11 @@
   #home .buttons a{
     display: inline-block;
     margin: 15px 30px;
-    color: #48dbfb;
+    color: #11D0CC;
     font-size: 15px;
     font-weight: 500;
     width: 180px;
-    border: 1px solid #48dbfb;
+    border: 1px solid #11D0CC;
     padding: 14px 0;
     border-radius: 6px;
     transition: .2s linear;
@@ -176,7 +179,7 @@
   #home .buttons a:hover,
   #home .buttons a:nth-child(2)
   {
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     color: #fff;
   }
   
@@ -209,7 +212,7 @@
     position: absolute;
     width: 16px;
     height: 10px;
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     border: 4px solid #f1f1f1;
     left: calc(50% - 12px);
     bottom: -7px;
@@ -283,7 +286,7 @@
     content: "";
     position: absolute;
     height: 6px;
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     bottom: 0;
   }
   
@@ -336,7 +339,7 @@
   .service{
     width: calc(33% - 20px);
     text-align: center;
-    border: 1px solid #48dbfb;
+    border: 1px solid #11D0CC;
     border-radius: 6px;
     margin: 20px 0;
     padding: 40px 20px;
@@ -346,7 +349,7 @@
   }
   
   .service .icon{
-    color: #48dbfb;
+    color: #11D0CC;
     font-size: 40px;
     margin-bottom: 20px;
     transition: .3s linear;
@@ -358,7 +361,7 @@
   }
   
   .service:hover{
-    background-color: #48dbfb;
+    background-color: #11D0CC;
   }
   
   .service:hover .icon{
@@ -396,7 +399,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     left: -28px;
     top: 30px;
     border-radius: 50%;
@@ -486,7 +489,7 @@
   }
   
   .contact-info .item:hover{
-    background-color: #48dbfb;
+    background-color: #11D0CC;
   }
   
   .contact-form{
@@ -519,9 +522,9 @@
   .contact-form .btn{
     width: 180px;
     background-color: transparent;
-    color: #48dbfb;
+    color: #11D0CC;
     font-size: 16px;
-    border: 2px solid #48dbfb;
+    border: 2px solid #11D0CC;
     padding: 0;
     margin-left: auto;
     cursor: pointer;
@@ -529,12 +532,13 @@
   }
   
   .contact-form .btn:hover{
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     color: #fff;
   }
   
   footer{
-    background: url(./images/bg.jpg) no-repeat center;
+    background: url(./images/footer.png) no-repeat;
+    background-size: 100vw 30vh;
     color: #fff;
     padding: 80px 0;
     text-align: center;
@@ -547,7 +551,7 @@
   
   .copyright a{
     font-size: 16px;
-    color: #48dbfb;
+    color: #11D0CC;
     font-weight: 500;
   }
   
@@ -558,7 +562,7 @@
     right: 40px;
     width: 40px;
     height: 40px;
-    background-color: #48dbfb;
+    background-color: #11D0CC;
     border: none;
     border-radius: 6px;
     cursor: pointer;

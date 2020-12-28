@@ -37,7 +37,7 @@ Scroll Button
   right: 1.5rem;
   bottom: 1.5rem;
 
-  background-color: #48dbfb;
+  background-color: #11D0CC;
 
   color: var(--mainWhite);
   z-index: -100;
@@ -49,6 +49,7 @@ Scroll Button
   transition: visibility 0s linear 0.9s, opacity 0.9s linear;
   cursor: pointer;
 }
+
 .show-scroll-btn {
   z-index: 100;
   opacity: 1;
