@@ -1,4 +1,8 @@
 import React from "react";
+import { CgWebsite } from 'react-icons/cg';
+import { GiWorld, GiSpanner } from 'react-icons/gi';
+
+
 import LanguageContext from "../../context/LanguageContext";
 class Services extends React.Component {
   static contextType = LanguageContext;
@@ -11,32 +15,39 @@ class Services extends React.Component {
             <div className="service">
               <i className="icon fas fa-paint-brush" />
               <h4>Design</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>We design your sites using Bootstrap, Material-UI, Semantic UI, etc.</p>
             </div>
             <div className="service">
-              <i className="icon fas fa-pager" />
+              <CgWebsite className="icon" />
               <h4>Build Websites</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Using HTML, CSS, JavaScript, React, Node.js, PHP</p>
             </div>
             <div className="service">
               <i className="icon fas fa-database" />
               <h4>Manage Databases</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>SQL Language, using the following databases: NoSQL - MongoDB, </p>
             </div>
             <div className="service">
-              <i className="icon fab fa-android" />
-              <h4>Android Apps</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              {/* <i className="icon fab fa-android" /> */}
+              <GiSpanner className="icon" />
+              <h4>maintenance</h4>
+              <p>
+                Most websites today – even though they are easy to edit – are complex software applications. 
+                Just like the operating system on your computer, they need to be kept up to date for security 
+                and performance reasons.
+              </p>
             </div>
             <div className="service">
               <i className="icon fas fa-credit-card" />
               <h4>Ui Design</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Make designs that are intelligble and memorable using pencil, Photoshop, Sketch, Vyond etc.</p>
             </div>
             <div className="service">
-              <i className="icon fas fa-keyboard" />
-              <h4>Edit Texts</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <GiWorld  className="icon" />
+              <h4>Geomatics</h4>
+              <p>Collect, measure, and interpret geographic information in order to create 
+                and update maps and charts for regional planning, education, and other purposes
+              </p>
             </div>
           </div>
         </div>
