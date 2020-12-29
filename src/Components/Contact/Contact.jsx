@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function Contact() {
     return (
@@ -9,16 +8,15 @@ export default function Contact() {
                 <div className="contact-info">
                     <div className="item">
                         <i className="fas fa-mobile-alt" />
-                        +48 729289235 <br/>
-                        +48 729289235
+                        +111 111111111
                     </div>
                     <div className="item">
                         <i className="fas fa-envelope" />
-                        johngomez5541@yahoo.com
+                        email@address.com
                     </div>
                     <div className="item">
                         <i className="fas fa-map-marker-alt" />
-                        Poznan, Poland
+                        New York, United States
                     </div>
                 </div>
                 <form action="#" className="contact-form">
