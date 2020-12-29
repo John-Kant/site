@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div className="inner-width">
                 <div className="copyright">
-                © 2020 | Created &amp; Designed By <a href="#"></a>
+                © 2020 | Created &amp; Designed By <a href="#">darkcode</a>
                 </div>
                 <div className="sm">
                 <a href="#" className="fab fa-facebook-f" />
