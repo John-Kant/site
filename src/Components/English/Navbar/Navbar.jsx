@@ -45,10 +45,10 @@ class Navbar extends React.Component {
               {open ? (
                 <>
                   <a href="#home">Accueil</a>
-                  <a href="#about">A propos</a>
+                  <a href="#about">À propos</a>
                   <a href="#services">Nos Services</a>
-                  <a href="#education">Education</a>
-                  <a href="#works">Travails</a>
+                  {/* <a href="#education">Education</a> */}
+                  {/* <a href="#works">Travails</a> */}
                   <a href="#contact">Contact</a>
                   <span
                     className="icon-st"
@@ -63,8 +63,8 @@ class Navbar extends React.Component {
                   <a href="#home">Home</a>
                   <a href="#about">About</a>
                   <a href="#services">Services</a>
-                  <a href="#education">Education</a>
-                  <a href="#works">Works</a>
+                  {/* <a href="#education">Education</a> */}
+                  {/* <a href="#works">Works</a> */}
                   <a href="#contact">Contact</a>
                   <span
                     className="icon-st"
